@@ -14,7 +14,7 @@ export const branches: Branch[] = [
     email: 'rawdha@matera.sa',
     hoursEn: 'Daily from 7AM to 1 AM',
     hoursAr: 'يومياً من ٧ صباحاً إلى ١ صباحاً',
-    mapUrl: '#',
+    mapUrl: 'https://maps.app.goo.gl/k6QWNfhFx7KQyYQa9',
     image: images.logo,
   },
   {

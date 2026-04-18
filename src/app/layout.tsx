@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   title: { default: 'MATIRA', template: '%s | MATIRA' },
   description:
     'A luxury dining experience across two distinguished locations',
+  icons: {
+    icon: '/images/logo/Matera-Icon.png',
+    shortcut: '/images/logo/Matera-Icon.png',
+    apple: '/images/logo/Matera-Icon.png',
+  },
 };
 
 export default function RootLayout({
