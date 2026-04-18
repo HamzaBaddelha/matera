@@ -1,0 +1,110 @@
+{
+  "brand": "MATIRA",
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "branches": "Branches",
+    "about": "About",
+    "reservation": "Reservation",
+    "contact": "Contact",
+    "reserve": "Reserve a Table"
+  },
+  "hero": {
+    "title": "MATERA A Signature Fine Dining Experience",
+    "subtitle": "Where culinary artistry meets refined ambiance across two distinguished locations",
+    "reserveCta": "Reserve a Table",
+    "menuCta": "Explore Menu",
+    "chooseBranch": "Choose Your Branch"
+  },
+  "menuSection": {
+    "title": "Signature Menu",
+    "subtitle": "Crafted with passion, served with elegance",
+    "viewFull": "View Full Menu",
+    "cal": "Cal",
+    "pageTitle": "Our Menu",
+    "pageSubtitle": "A curated collection of culinary masterpieces"
+  },
+  "about": {
+    "previewTitle": "Our Story",
+    "previewSubtitle": "A journey of flavors and traditions",
+    "previewText": "At MATIRA, we believe dining is an art form. Every dish is a canvas, every ingredient a brushstroke, and every meal an unforgettable masterpiece crafted by our world-class culinary team.",
+    "cta": "Discover Our Story",
+    "pageTitle": "The Art of Dining",
+    "pageSubtitle": "Where every detail tells a story of passion and excellence",
+    "storyTitle": "Our Philosophy",
+    "storyText": "Born from a passion for exceptional Italian cuisine and uncompromising hospitality, MATIRA offers a dining experience where tradition, elegance, and innovation come together in perfect harmony. Inspired by the richness of Italian culinary culture, our chefs craft every dish with authenticity, creativity, and refined attention to detail.",
+    "storyText2": "Every element of the MATIRA experience has been thoughtfully curated — from our hand-selected ingredients sourced from the finest purveyors worldwide, to our meticulously designed spaces that balance intimacy with grandeur.",
+    "valuesTitle": "Our Values",
+    "value1Title": "Excellence",
+    "value1Text": "We pursue perfection in every dish, every interaction, and every moment of your dining experience.",
+    "value2Title": "Authenticity",
+    "value2Text": "We honor culinary traditions while embracing innovation, creating dishes that are both timeless and contemporary.",
+    "value3Title": "Hospitality",
+    "value3Text": "We believe true luxury lies in genuine warmth and attentive service that anticipates your every need.",
+    "chefTitle": "Behind the Kitchen",
+    "chefText": "Our culinary team brings together decades of international experience, united by a shared commitment to extraordinary cuisine."
+  },
+  "branches": {
+    "title": "Our Locations",
+    "subtitle": "Two distinguished destinations, one exceptional experience",
+    "hours": "Opening Hours",
+    "address": "Address",
+    "viewMap": "View on Map",
+    "reserve": "Reserve at This Branch",
+    "pageTitle": "Our Branches",
+    "pageSubtitle": "Find your nearest MATIRA"
+  },
+  "reservation": {
+    "title": "Reserve a Table",
+    "subtitle": "We look forward to welcoming you",
+    "bandTitle": "Make a Reservation",
+    "bandSubtitle": "Secure your table at MATIRA",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email (Optional)",
+    "branch": "Select Branch",
+    "date": "Date",
+    "time": "Preferred Time",
+    "guests": "Number of Guests",
+    "specialRequest": "Special Requests",
+    "specialRequestPlaceholder": "Dietary requirements, celebrations, seating preferences...",
+    "submit": "Confirm Reservation",
+    "selectBranch": "Choose a branch",
+    "success": "Thank you! Your reservation request has been submitted. We will confirm shortly."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you",
+    "name": "Your Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send Message",
+    "info": "Contact Information",
+    "phone": "Phone",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "hoursLabel": "Working Hours",
+    "followUs": "Follow Us",
+    "success": "Thank you for your message. We'll get back to you shortly."
+  },
+  "testimonials": {
+    "title": "Guest Experiences",
+    "subtitle": "Words from those who've dined with us"
+  },
+  "gallery": {
+    "title": "The Experience",
+    "subtitle": "Moments of culinary excellence"
+  },
+  "footer": {
+    "description": "A luxury dining experience across two distinguished locations.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact",
+    "followUs": "Follow Us",
+    "rights": "All Rights Reserved"
+  },
+  "common": {
+    "sar": "SAR",
+    "free": "Complimentary"
+  }
+}

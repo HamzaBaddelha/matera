@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-black: #000000;
+  --color-brand-coffee: #53442B;
+  --color-brand-creamy: #C1A283;
+  --color-brand-beige: #F7E6DB;
+  --color-brand-concrete: #BAB2A6;
+
+  --font-heading: var(--font-reckless), 'Georgia', serif;
+  --font-body: var(--font-reckless), 'Helvetica Neue', sans-serif;
+
+  --animate-fade-in: fade-in 0.8s ease-out forwards;
+  --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
+
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes fade-in-up {
+    0% { opacity: 0; transform: translateY(16px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+}
+
+[dir='rtl'] {
+  --font-heading: var(--font-amiri), 'Traditional Arabic', serif;
+  --font-body: var(--font-cairo), 'Tahoma', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+::selection {
+  background-color: rgba(193, 162, 131, 0.3);
+  color: #f7e6db;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
