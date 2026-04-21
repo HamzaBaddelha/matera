@@ -35,8 +35,14 @@ export default function ContactForm({ dict }: { dict: Dictionary }) {
           <input type="text" required className={inputClasses} />
         </div>
         <div>
-          <label className={labelClasses}>{dict.contact.email}</label>
-          <input type="email" required className={inputClasses} />
+          <label className={labelClasses}>{dict.contact.phone}</label>
+          <input
+            type="tel"
+            required
+            inputMode="tel"
+            placeholder="+966"
+            className={inputClasses}
+          />
         </div>
       </div>
       <div>

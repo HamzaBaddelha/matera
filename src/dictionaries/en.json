@@ -1,5 +1,5 @@
 {
-  "brand": "MATIRA",
+  "brand": "MATERA",
   "nav": {
     "home": "Home",
     "menu": "Menu",
@@ -27,13 +27,13 @@
   "about": {
     "previewTitle": "Our Story",
     "previewSubtitle": "A journey of flavors and traditions",
-    "previewText": "At MATIRA, we believe dining is an art form. Every dish is a canvas, every ingredient a brushstroke, and every meal an unforgettable masterpiece crafted by our world-class culinary team.",
+    "previewText": "At MATERA, we believe dining is an art form. Every dish is a canvas, every ingredient a brushstroke, and every meal an unforgettable masterpiece crafted by our world-class culinary team.",
     "cta": "Discover Our Story",
     "pageTitle": "The Art of Dining",
     "pageSubtitle": "Where every detail tells a story of passion and excellence",
     "storyTitle": "Our Philosophy",
-    "storyText": "Born from a passion for exceptional Italian cuisine and uncompromising hospitality, MATIRA offers a dining experience where tradition, elegance, and innovation come together in perfect harmony. Inspired by the richness of Italian culinary culture, our chefs craft every dish with authenticity, creativity, and refined attention to detail.",
-    "storyText2": "Every element of the MATIRA experience has been thoughtfully curated — from our hand-selected ingredients sourced from the finest purveyors worldwide, to our meticulously designed spaces that balance intimacy with grandeur.",
+    "storyText": "Born from a passion for exceptional Italian cuisine and uncompromising hospitality, MATERA offers a dining experience where tradition, elegance, and innovation come together in perfect harmony. Inspired by the richness of Italian culinary culture, our chefs craft every dish with authenticity, creativity, and refined attention to detail.",
+    "storyText2": "Every element of the MATERA experience has been thoughtfully curated — from our hand-selected ingredients sourced from the finest purveyors worldwide, to our meticulously designed spaces that balance intimacy with grandeur.",
     "valuesTitle": "Our Values",
     "value1Title": "Excellence",
     "value1Text": "We pursue perfection in every dish, every interaction, and every moment of your dining experience.",
@@ -52,13 +52,13 @@
     "viewMap": "View on Map",
     "reserve": "Reserve at This Branch",
     "pageTitle": "Our Branches",
-    "pageSubtitle": "Find your nearest MATIRA"
+    "pageSubtitle": "Find your nearest MATERA"
   },
   "reservation": {
     "title": "Reserve a Table",
     "subtitle": "We look forward to welcoming you",
     "bandTitle": "Make a Reservation",
-    "bandSubtitle": "Secure your table at MATIRA",
+    "bandSubtitle": "Secure your table at MATERA",
     "name": "Full Name",
     "phone": "Phone Number",
     "email": "Email (Optional)",

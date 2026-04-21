@@ -3,7 +3,7 @@ import { inter, playfair, cairo, amiri, reckless } from '@/lib/fonts';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: { default: 'MATIRA', template: '%s | MATIRA' },
+  title: { default: 'MATERA', template: '%s | MATERA' },
   description:
     'A luxury dining experience across two distinguished locations',
   icons: {
