@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import type { Locale, Branch, Dictionary } from '@/types';
-import Button from './ui/Button';
 
 export default function BranchCard({
   branch,
@@ -18,16 +17,24 @@ export default function BranchCard({
   const hours = isAr ? branch.hoursAr : branch.hoursEn;
   const hasMap = branch.mapUrl && branch.mapUrl !== '#';
 
-  const image = (
-    <div className="relative aspect-[16/9] overflow-hidden">
-      <Image
-        src={branch.image}
-        alt={name}
-        fill
-        sizes="(max-width: 768px) 100vw, 50vw"
-        className="object-cover transition-transform duration-700 group-hover:scale-105"
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-brand-black/60 to-transparent" />
+  const qrPanel = (
+    <div className="relative overflow-hidden bg-gradient-to-br from-brand-black via-brand-coffee/95 to-brand-black px-4 py-5 sm:px-5 sm:py-6 md:px-6 md:py-8">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(193,162,131,0.18),_transparent_55%)]" />
+      <div className="relative flex justify-center">
+        <div className="w-full max-w-[210px] sm:max-w-[240px] md:max-w-[280px]">
+          <div className="rounded-[1.4rem] border border-brand-creamy/15 bg-brand-black/65 p-2.5 shadow-[0_16px_36px_rgba(0,0,0,0.4)] backdrop-blur-sm sm:rounded-[1.55rem] sm:p-3 md:rounded-[1.75rem]">
+            <div className="relative aspect-square overflow-hidden rounded-[1.05rem] border border-brand-creamy/30 bg-brand-beige shadow-[0_0_0_1px_rgba(193,162,131,0.12)] sm:rounded-[1.2rem] md:rounded-2xl">
+              <Image
+                src={branch.qrImage}
+                alt={`${name} location QR code`}
+                fill
+                sizes="(max-width: 640px) 210px, (max-width: 768px) 240px, 280px"
+                className="object-cover transition-transform duration-500 motion-reduce:transition-none group-hover:scale-[1.04] md:group-hover:scale-[1.06]"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 
@@ -41,14 +48,13 @@ export default function BranchCard({
           className="block"
           aria-label={`Open ${name} on map`}
         >
-          {image}
+          {qrPanel}
         </a>
       ) : (
-        image
+        qrPanel
       )}
-
-      <div className="p-6 md:p-8">
-        <h3 className="font-heading text-2xl text-brand-beige">{name}</h3>
+      <div className="p-5 sm:p-6 md:p-8">
+        <h3 className="font-heading text-xl text-brand-beige sm:text-2xl">{name}</h3>
         <p className="mt-2 text-sm leading-relaxed text-brand-concrete/80">
           {description}
         </p>
@@ -77,14 +83,6 @@ export default function BranchCard({
             </p>
           </div>
         </div>
-
-        {hasMap && (
-          <div className="mt-8">
-            <Button href={branch.mapUrl} variant="outline" size="sm">
-              {dict.branches.viewMap}
-            </Button>
-          </div>
-        )}
       </div>
     </div>
   );

@@ -14,7 +14,8 @@ export const branches: Branch[] = [
     email: 'rawdha@matera.sa',
     hoursEn: 'Daily from 7AM to 1 AM',
     hoursAr: 'يومياً من ٧ صباحاً إلى ١ صباحاً',
-    mapUrl: 'https://maps.app.goo.gl/k6QWNfhFx7KQyYQa9',
+    mapUrl: 'https://maps.app.goo.gl/mgRMU4d7pry71oK5A?g_st=iw',
+    qrImage: '/images/branches/rawdha-khurais-qr.png',
     image: images.logo,
   },
   {
@@ -29,7 +30,8 @@ export const branches: Branch[] = [
     email: 'kairouan@matera.sa',
     hoursEn: 'Daily from 7AM to 1 AM',
     hoursAr: 'يومياً من ٧ صباحاً إلى ١ صباحاً',
-    mapUrl: '#',
+    mapUrl: 'https://www.google.com/maps?q=24.84119987487793,46.606624603271484&z=17&hl=en',
+    qrImage: '/images/branches/kairouan-qr.png',
     image: images.logo,
   },
 ];

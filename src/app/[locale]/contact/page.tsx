@@ -17,7 +17,7 @@ export async function generateMetadata({
     title: dict.contact.title,
     description: dict.contact.subtitle,
     openGraph: {
-      title: `${dict.contact.title} | MATIRA`,
+      title: `${dict.contact.title} | MATERA`,
       description: dict.contact.subtitle,
     },
   };

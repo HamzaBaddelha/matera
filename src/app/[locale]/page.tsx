@@ -44,7 +44,7 @@ export default async function HomePage({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Restaurant',
-    name: 'MATIRA',
+    name: 'MATERA',
     description: dict.hero.subtitle,
     servesCuisine: 'International',
     priceRange: '$$$$',
