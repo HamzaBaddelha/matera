@@ -17,7 +17,7 @@ export async function generateMetadata({
     title: dict.reservation.title,
     description: dict.reservation.subtitle,
     openGraph: {
-      title: `${dict.reservation.title} | MATIRA`,
+      title: `${dict.reservation.title} | MATERA`,
       description: dict.reservation.subtitle,
     },
   };

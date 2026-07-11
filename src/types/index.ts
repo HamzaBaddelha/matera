@@ -32,6 +32,7 @@ export interface Branch {
   hoursEn: string;
   hoursAr: string;
   mapUrl: string;
+  qrImage: string;
   image: string;
 }
 

@@ -18,7 +18,7 @@ export async function generateMetadata({
     title: dict.branches.pageTitle,
     description: dict.branches.pageSubtitle,
     openGraph: {
-      title: `${dict.branches.pageTitle} | MATIRA`,
+      title: `${dict.branches.pageTitle} | MATERA`,
       description: dict.branches.pageSubtitle,
     },
   };

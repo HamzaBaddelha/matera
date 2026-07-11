@@ -94,7 +94,7 @@ export default function Footer({
       <div className="border-t border-brand-creamy/5">
         <Container className="py-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-brand-concrete/40">
           <p>
-            &copy; {year} MATIRA. {dict.footer.rights}.
+            &copy; {year} MATERA. {dict.footer.rights}.
           </p>
           <a
             href={`/${locale === 'en' ? 'ar' : 'en'}`}
